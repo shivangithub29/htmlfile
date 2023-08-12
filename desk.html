@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>harry fitness</title>
+    
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* css reset  */
+    body{
+        color:white;
+        margin:0px;
+        padding:0px;
+        background: url('img/gym.jpg');
+    }
+    .left{
+        position:absolute;
+        left: 34px;
+        top: 20px;
+        display: inline-block;
+     border: 2px solid red ;
+    }
+    .left img {
+        width: 136px;
+        filter: invert(100%);
+    }
+    
+    .left div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .mid{
+        display:block;
+     border: 2px solid green;
+     width:33%;
+     margin: 20px auto;
+    }
+    .right{
+        position:absolute;
+        right: 34px;
+        top: 20px;
+        display:inline-block;
+    border: 2px solid yellow;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navbar li a{
+        color: aliceblue;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover,.navbar li a.active {
+        text-decoration: underline;
+        color:grey;
+    }
+    </style>
+    body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+             <img src="img/logo.jpg" alt="">   
+             <div>harry fitness</div>                                                                    
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">home</a> </li>
+                <li><a href="#">about us</a> </li>
+                <li><a href="#">fitness calculator</a></li>
+                <li><a href="#">contact us</a></li>
+              </ul> 
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            
+                <button class="btn">Call Us Now</button>
+                <button class="btn">Email Us</button>
+            
+        </div>
+    </header>
+</body>
+</html>
